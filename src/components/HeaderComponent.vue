@@ -1,5 +1,5 @@
 <template>
-  <div class='ct-w100 ct-h80px ct-black'>
+  <div class='ct-w100 ct-h80px '>
       <div class="ct-w80A ct-h80px ct-header">
           <div class="ct-w10">
               <img src="../assets/img/Logo.jpg"  alt="">

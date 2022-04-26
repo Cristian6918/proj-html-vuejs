@@ -8,15 +8,19 @@ a{
 
 
 // utilities
-
-
+.ct-h100{
+    height:100%;
+}
+.ct-h100h{
+    height: 100vh;
+}
 .ct-w100a{
     width:100%;
 }
 .ct-w80A{
     width:70%;
     margin:auto;
-    background-color: white;
+   
 }
 .ct-w10{
     width:15%;

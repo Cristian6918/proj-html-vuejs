@@ -1,21 +1,25 @@
 <template>
   <div id="app">
     <HeaderComponent />
+    <HeroComponent />
   </div>
 </template>
 
 <script>
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import HeroComponent from'@/components/HeroComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    HeroComponent
    
   }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
+
 
 </style>
