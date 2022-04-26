@@ -1,0 +1,30 @@
+
+@import 'variables.scss';
+
+
+a{
+    text-decoration:none;
+}
+
+
+// utilities
+
+
+.ct-w100a{
+    width:100%;
+}
+.ct-w80A{
+    width:70%;
+    margin:auto;
+    background-color: white;
+}
+.ct-w10{
+    width:15%;
+}
+
+.ct-h80px{
+    height: 80px;
+}
+.ct-black{
+    background-color: black;
+}
