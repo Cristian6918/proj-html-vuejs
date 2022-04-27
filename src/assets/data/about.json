@@ -2,17 +2,17 @@
     {
         "title":"Online Coaching",
         "descr":"Lorem ipsum is simply dummy text of the print ing and typesetting has the industrys.",
-        "imagine":"@/assets/svg/svg-0.svg"
+        "imagine":"https://github.com/Cristian6918/proj-html-vuejs/blob/5c730eaf669d5c679d6b151eb6f8822242e9cd35/src/assets/svg/svg-0.svg?raw=true"
         
     },
      {
         "title":"Consultation",
         "descr":"Lorem ipsum is simply dummy text of the print ing and typesetting has the industrys.",
-        "imagine":"../assets/svg/svg-0.svg"
+        "imagine":"https://github.com/Cristian6918/proj-html-vuejs/blob/5c730eaf669d5c679d6b151eb6f8822242e9cd35/src/assets/svg/svg-1.svg?raw=true"
     },
      {
         "title":"Life Programs",
         "descr":"Lorem ipsum is simply dummy text of the print ing and typesetting has the industrys.",
-        "imagine":"@/assets/svg/svg-0.svg"
+        "imagine":"https://github.com/Cristian6918/proj-html-vuejs/blob/5c730eaf669d5c679d6b151eb6f8822242e9cd35/src/assets/svg/svg-2.svg?raw=true"
     }
 ]
