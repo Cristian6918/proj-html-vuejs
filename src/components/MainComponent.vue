@@ -3,7 +3,8 @@
   <div class="ct-section ct-w80A">
       <h1>Since 2000, weve been partenering with education leaders tos <span> increase equiti and achievement</span> for all students</h1>
       <div class="card-section">
-        <CardComponent v-for='card in about' :key='card.title' :title='card.title' :descr='card.descr' :imagine="card.imagine" />
+        <CardComponent v-for='card in about' :key='card.title' :title='card.title' :descr='card.descr' :imagine="card.imagine" 
+        :personalizedClass="aboutClass"/>
        
       </div>
 
@@ -16,24 +17,29 @@
                 <span class="ct-red-shape ct-stat-bg orange-text">200</span> <span class="red-text">+</span> <span>Online Courses</span>
             </div>
             <div class="ct-w30">
-                <span class="ct-green-shape ct-stat-bg green-text">6500</span> <span class="green-text">%</span> <span>Happy Clients</span>
+                <span class="ct-green-shape ct-stat-bg green-text">100</span> <span class="green-text">%</span> <span>Happy Clients</span>
             </div>
         </div>
     </div>
 
     <!-- Course -->
     <div class="ct-section ct-w80A">
+        <div class="ct-w50">
         <h1>Recent Courses</h1>
         <p>Whether you're considering a foundation course or an undergraduate degree master's or PhD, accademics is a place where students thrive.</p>
+        </div>
         <div class="card-section">
-            <CardComponent v-for='course in courses' :key='course.title' :imagine='course.imagine' :title='course.title' :descr='course.descr' />
+            <CardComponent v-for='course in courses' :key='course.title' :imagine='course.imagine' :title='course.title' :descr='course.descr' :price="course.price" 
+            :personalizedClass='coursesClass'/>
         </div>
     </div>
+    <QuoteComponent />
 </div>
 </template>
 
 <script>
 import CardComponent from'@/components/CardComponent.vue';
+import QuoteComponent from '@/components/QuoteComponent.vue';
 import courses from '@/assets/data/courses.json';
 import about from '@/assets/data/about.json';
 export default {
@@ -41,10 +47,13 @@ export default {
     return{
       about,
       courses,
+      aboutClass:'ct-card-about',
+      coursesClass:'ct-card-course'
     }
   },
   components:{
       CardComponent,
+      QuoteComponent
       
   },
   

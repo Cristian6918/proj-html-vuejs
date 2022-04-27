@@ -23,8 +23,11 @@ a{
 }
 .ct-w80A{
     width:70%;
-    margin:auto;
-   
+    margin: auto;
+}
+
+.ct-w50{
+    width:50%;
 }
 .ct-w10{
     width:15%;
@@ -73,25 +76,67 @@ a{
 
 
 // card 
-.ct-card{
+.ct-card-course{
     width:30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding:2em 2em;
+    justify-content: space-between;
     margin-top:3em;
     border-radius:10px;
     gap:2em;
+    text-align:left;
     
     
     
     box-shadow: 5px 5px 15px 3px rgba(119, 119, 119, 0.2);
 
     img {
-        width: 20%;
-    
+        height:100%;
+        width:100%;
+        object-fit: cover;
     }
 }
+
+.ct-card-about{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3em;
+    border-radius: 10px;
+    gap: 2em;
+    padding:20px;
+
+
+
+    box-shadow: 5px 5px 15px 3px rgba(119, 119, 119, 0.2);
+
+    img {
+        
+        width: 30%;
+        object-fit: contain;
+    }
+}
+
+.ct-card-image {
+    height: 50%;
+
+
+}
+
+.ct-card-descr {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-bg {
+    width:10%;
+    background: $red-background;
+    background: linear-gradient(180deg,  rgba(255, 255, 255, 0) 50%, $red-background , $red-background 10%);
+}
+
+
+
 

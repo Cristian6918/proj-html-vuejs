@@ -1,8 +1,13 @@
 <template>
-  <div class="ct-card">
-      <img :src='imagine' :alt="imagine">
-      <h4>{{title}}</h4>
-      <p>{{descr}}</p>
+  <div :class="personalizedClass">
+      <div class="ct-card-image">
+        <img :src='imagine' :alt="imagine">
+      </div>
+      <div class="ct-card-descr">
+        <p class='price-bg' >{{price}}</p>
+        <h4>{{title}}</h4>
+        <p>{{descr}}</p>
+      </div>
      
 
 
@@ -11,11 +16,14 @@
 
 <script>
 export default {
-    props:['imagine','title','descr','price', 'by','id'],
+    props:['imagine','title','descr','price', 'by','id','personalizedClass'],
 }
 </script>
 
 <style lang='scss' scoped>
+
+
+
 
 
 
