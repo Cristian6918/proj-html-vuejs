@@ -44,6 +44,11 @@ export default {
            background-color:rgba(0, 0, 0, 0);
            outline: none;
            border:1px solid $border-button;
+
+           &:hover{
+                background-color:rgba(0, 0, 0, 0.1);
+               
+           }
        }
    }
 
