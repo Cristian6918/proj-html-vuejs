@@ -1,5 +1,9 @@
 
 @import 'variables.scss';
+*{
+    box-sizing:border-box;
+    margin:0;
+}
 
 
 a{
@@ -25,6 +29,9 @@ a{
 .ct-w10{
     width:15%;
 }
+.ct-w30{
+    width:30%;
+}
 
 .ct-h80px{
     height: 80px;
@@ -32,3 +39,60 @@ a{
 .ct-black{
     background-color: black;
 }
+
+// section
+
+.ct-section{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:center;
+    margin-top:1em;
+
+    h1{
+        padding:0 6em;
+
+        span{
+            color:$red-text;
+        }
+    }
+
+    .card-section{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+.statistics-section{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-top:1em;
+    font-size:3rem;
+}
+
+
+// card 
+.ct-card{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding:2em 2em;
+    margin-top:3em;
+    border-radius:10px;
+    font-size:1.4rem;
+    gap:2em;
+    
+    
+    
+    box-shadow: 5px 5px 15px 3px rgba(119, 119, 119, 0.2);
+
+    img {
+        width: 20%;
+    
+    }
+}
+

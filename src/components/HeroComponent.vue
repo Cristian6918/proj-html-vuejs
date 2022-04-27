@@ -20,7 +20,7 @@ export default {
 
 .ct-hero{
    background-image: url('../assets/img/02_Landing-Page.jpg ');
-   background-position: center;
+   background-position: bottom;
    background-size:cover;
    display:flex;
    align-items: center;

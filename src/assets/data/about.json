@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Online Coaching",
+        "descr":"Lorem ipsum is simply dummy text of the print ing and typesetting has the industrys.",
+        "imagine":"@/assets/svg/svg-0.svg"
+        
+    },
+     {
+        "title":"Consultation",
+        "descr":"Lorem ipsum is simply dummy text of the print ing and typesetting has the industrys.",
+        "imagine":"../assets/svg/svg-0.svg"
+    },
+     {
+        "title":"Life Programs",
+        "descr":"Lorem ipsum is simply dummy text of the print ing and typesetting has the industrys.",
+        "imagine":"@/assets/svg/svg-0.svg"
+    }
+]
