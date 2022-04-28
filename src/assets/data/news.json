@@ -1,0 +1,17 @@
+[
+    {
+        "purpose":["Admin","University"],
+        "title":"Peer pressure changes how teens tackle inequality",
+        "imagine":"https://github.com/Cristian6918/proj-html-vuejs/blob/main/src/assets/img/news-3-2.jpg?raw=true"
+    },
+    {
+        "purpose":["Admin","University"],
+        "title":"Lewsham Live Mixtape celebrates borough's",
+        "imagine":"https://github.com/Cristian6918/proj-html-vuejs/blob/main/src/assets/img/news-2-2.jpg?raw=true"
+    },
+    {
+        "purpose":["Admin","University"],
+        "title":"Turner Prize winner's work to open Gold on Film festival",
+        "imagine":"https://github.com/Cristian6918/proj-html-vuejs/blob/main/src/assets/img/news-1-2.jpg?raw=true"
+    }
+]

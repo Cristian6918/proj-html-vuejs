@@ -3,6 +3,7 @@
     <HeaderComponent />
     <HeroComponent />
     <MainComponent/>
+    <FooterComponent/>
     
     
   </div>
@@ -14,6 +15,7 @@
 import HeaderComponent from '@/components/HeaderComponent.vue';
 import HeroComponent from'@/components/HeroComponent.vue';
 import MainComponent from '@/components/MainComponent.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 
 
 // import Json Files
@@ -25,7 +27,8 @@ export default {
   components: {
     HeaderComponent,
     HeroComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent
     
   },
   

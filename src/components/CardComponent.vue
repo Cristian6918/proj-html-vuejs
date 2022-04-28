@@ -5,8 +5,20 @@
       </div>
       <div class="ct-card-descr">
         <p class='price-bg' >{{price}}</p>
+        <div class='ct-purpose'><span>
+                <i v-if='purpose==="University"' class="fa-regular fa-folder-closed"></i>
+                <i v-if='purpose==="Admin"' class="fa-regular fa-user"></i>  {{purpose}}
+            </span>
+            <span>
+                <i v-if='secondPurpose==="University"' class="fa-regular fa-folder-closed"></i>
+                <i v-if='secondPurpose==="Admin"' class="fa-regular fa-user"></i>  {{secondPurpose}}
+            </span>
+        </div>
         <h4>{{title}}</h4>
+        <div class='ct-newsLine' v-if='personalizedClass==="ct-news"'></div>
+        <button v-if='personalizedClass==="ct-news"'>Learn more  <span><i class="fa-solid fa-angle-right"></i></span></button>
         <p>{{descr}}</p>
+
       </div>
      
 
@@ -16,7 +28,7 @@
 
 <script>
 export default {
-    props:['imagine','title','descr','price', 'by','id','personalizedClass'],
+    props:['imagine','title','descr','price', 'by','id','personalizedClass',"purpose",'secondPurpose','line'],
 }
 </script>
 
@@ -32,10 +44,20 @@ export default {
     gap:2em;
     
     box-shadow: 5px 5px 15px 3px rgba(119, 119, 119, 0.2);
+    button{
+        max-width:30%;
+        border:none;
+        background:none;
+
+        &:hover{
+            background-color:rgba(0, 0, 0, 0.1);
+        }
+       }
 
 }
 
-.ct-course{
+.ct-course,
+.ct-news{
     text-align:left;
     justify-content: space-between;
     img {
@@ -88,6 +110,22 @@ export default {
 
 .ct-card:hover{
     box-shadow: 5px 5px 15px 3px rgba(119, 119, 119, 0.4);;
+}
+
+.ct-purpose{
+    display:flex;
+    gap:20px;
+}
+
+.ct-news:hover .ct-newsLine{
+    width:100%;
+    transition:width 2s;
+}
+
+.ct-newsLine{
+    width:20%;
+    height:2px;
+    background-color:$red1-background;
 }
 
 

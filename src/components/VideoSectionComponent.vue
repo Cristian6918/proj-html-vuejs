@@ -2,7 +2,7 @@
   <div class=" ct-video-section">
       <div class="ct-video">
           <div class='ct-play'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.7 213.7"><circle class="circle" fill="white" cx="106.8" cy="106.8" r="103.3"/><path class="triangle" fill="red" d="M73.5 62.5l75 43.3-75 43.3z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.7 213.7"><circle class="circle" fill="white" cx="106.8" cy="106.8" r="103.3"/><path class="triangle" fill="#D74D52" d="M73.5 62.5l75 43.3-75 43.3z"/></svg>
           </div>
          
 
@@ -75,6 +75,10 @@ export default {
        button{
            border:none;
            background:none;
+
+            &:hover{
+            background-color:rgba(0, 0, 0, 0.1);
+        }
        }
       
 
@@ -85,6 +89,10 @@ export default {
            align-self: center;
            margin-top:2em;
            background:none;
+
+            &:hover{
+            background-color:rgba(0, 0, 0, 0.1);
+        }
 
        }
     

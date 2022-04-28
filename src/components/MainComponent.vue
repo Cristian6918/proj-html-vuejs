@@ -49,6 +49,21 @@
     </div>
     <QuoteComponent />
     <VideoSectionComponent />
+    <div class="ct-section">
+        <div class="ct-w50">
+            <h1>Latest from our Blogs</h1>
+            <p>Whether you're considering a foundation course or an undergraduate degree master's or PhD, accademics is a place where students thrive.</p>
+        </div>
+        <div class="card-section">
+            <CardComponent v-for='element in news' 
+            :key='element.title' 
+            :imagine='element.imagine' 
+            :title='element.title' 
+            :purpose="element.purpose[0]"
+            :secondPurpose="element.purpose[1]"
+            :personalizedClass='newsClass'/>
+        </div>
+    </div>
 </div>
 </template>
 
@@ -61,13 +76,16 @@ import VideoSectionComponent from '@/components/VideoSectionComponent.vue';
 // import Data
 import courses from '@/assets/data/courses.json';
 import about from '@/assets/data/about.json';
+import news from '@/assets/data/news.json';
 export default {
  data(){
     return{
       about,
       courses,
+      news,
       aboutClass:'ct-about',
-      coursesClass:'ct-course'
+      coursesClass:'ct-course',
+      newsClass:'ct-news'
     }
   },
   components:{
