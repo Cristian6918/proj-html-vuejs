@@ -1,0 +1,20 @@
+[
+    {
+        "title":"Support Us",
+        "elements":["Privacy","Terms","Cookie Policy","Sitemap"],
+        "id":"FooterList1"
+    },
+    
+    {
+        "title":"Explore",
+        "elements":["Accomodation","Arts Academics","Central Services","Conferences and Events","Food and Drinks"],
+        "id":"FooterList2"
+    },
+     
+    {
+        "title":"Visit",
+        "elements":["Admission","Contact Us","FAQs","Request Information","Privacy Notice"],
+        "id":"FooterList3"
+    }
+
+]

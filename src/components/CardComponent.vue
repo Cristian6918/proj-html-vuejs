@@ -100,6 +100,8 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    cursor:pointer;
+
 }
 
 .price-bg {

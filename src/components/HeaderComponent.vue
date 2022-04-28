@@ -37,6 +37,10 @@ export default {
         a{
             margin-left:15px;
             font-weight: bold;
+            
+            &:hover{
+                color:#d74d52;
+            }
         }
     }
 }

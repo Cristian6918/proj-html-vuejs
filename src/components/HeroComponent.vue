@@ -28,8 +28,9 @@ export default {
    div{
        display: flex;
        align-items:center;
-       justify-content: center;
+       justify-content: flex-start;
        flex-direction: column;
+       gap:3em;
        
 
        h1{  

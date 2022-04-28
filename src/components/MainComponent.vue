@@ -14,19 +14,19 @@
       <!-- Statistic Part -->
        <div class="statistics-section ct-w100a">
             <div class="ct-w30">
-                <span class="ct-orange-shape ct-stat-bg orange-text">6500</span> 
-                <span class="orange-text">+</span> 
-                <span>Students</span>
+                <b class="ct-orange-shape ct-stat-bg orange-text"> 6500 </b> 
+                <b class="orange-text"> + </b> 
+                <span> Students</span>
             </div>
             <div class="ct-w30">
-                <span class="ct-red-shape ct-stat-bg orange-text">200</span> 
-                <span class="red-text">+</span> 
-                <span>Online Courses</span>
+                <b class="ct-red-shape ct-stat-bg red-text"> 200 </b> 
+                <b class="red-text"> + </b> 
+                <span> Online Courses</span>
             </div>
             <div class="ct-w30">
-                <span class="ct-green-shape ct-stat-bg green-text">100</span> 
-                <span class="green-text">%</span> 
-                <span>Happy Clients</span>
+                <b class="ct-green-shape ct-stat-bg green-text"> 100 </b> 
+                <b class="green-text"> % </b> 
+                <span> Happy Clients</span>
             </div>
         </div>
     </div>
@@ -54,6 +54,7 @@
             <h1>Latest from our Blogs</h1>
             <p>Whether you're considering a foundation course or an undergraduate degree master's or PhD, accademics is a place where students thrive.</p>
         </div>
+        <!-- news -->
         <div class="card-section">
             <CardComponent v-for='element in news' 
             :key='element.title' 
